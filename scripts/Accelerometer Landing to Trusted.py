@@ -58,7 +58,7 @@ AccelerometerTrusted_node3 = glueContext.write_dynamic_frame.from_options(
     connection_type="s3",
     format="json",
     connection_options={
-        "path": "s3://raya-lake-house/accelerometer/trusted/",
+        "path": "s3://project-lake-house/accelerometer/trusted/",
         "partitionKeys": [],
     },
     transformation_ctx="AccelerometerTrusted_node3",
